@@ -1,5 +1,5 @@
 # **SLICE Dashboard** 🖐️  
-**Sign Language Conversion Engine** – A web app that detects and interprets sign language and gestures using a camera and machine learning.  
+**Sign Language Conversion Engine** – A web app that detects and interprets sign language and gestures using a Raspberry Pi camera and machine learning.  
 
 ## 🚀 Features  
 - 📷 **Real-time Hand & Gesture Detection** using OpenCV & Mediapipe  
