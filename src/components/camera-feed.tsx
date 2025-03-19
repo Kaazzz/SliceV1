@@ -16,14 +16,14 @@ export default function CameraFeed() {
 
     const { addResult } = useDetectionStore()
 
-    // Process video frames and detect hands
+
     function processVideoFrame(video: HTMLVideoElement) {
         if (isModelLoaded) {
             processFrame(video)
         }
     }
 
-    // Add detection results to the store
+
     useEffect(() => {
         if (results.length > 0) {
             const latestResult = results[0]

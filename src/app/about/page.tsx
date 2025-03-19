@@ -66,7 +66,7 @@ export default function AboutPage() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-sm">
-                                SLICE-V1 leverages TensorFlow for machine learning capabilities, enabling accurate recognition of sign
+                                SLICE-V1 leverages Keras for machine learning capabilities, enabling accurate recognition of sign
                                 language patterns and continuous improvement over time.
                             </p>
                         </CardContent>

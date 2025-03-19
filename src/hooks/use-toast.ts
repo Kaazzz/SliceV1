@@ -17,7 +17,7 @@ export function useToast() {
 
     const toast = (props: ToastProps) => {
         setToasts((prev) => [...prev, props])
-        // In a real implementation, this would show a toast notification
+
         console.log(`Toast: ${props.title} - ${props.description}`)
     }
 
