@@ -27,7 +27,7 @@ export default function AboutPage() {
                     <Card>
                         <CardHeader className="space-y-1">
                             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                                <Camera className="h-4 w-4" />
+                                <Camera className="h-5 w-5" />
                             </div>
                             <CardTitle>Real-time Detection</CardTitle>
                             <CardDescription>Advanced computer vision for gesture recognition</CardDescription>
