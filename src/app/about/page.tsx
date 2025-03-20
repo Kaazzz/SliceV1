@@ -50,7 +50,7 @@ export default function AboutPage() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-sm">
-                                Our machine learning models are trained to recognize common sign language gestures and convert them into
+                                The machine learning models is trained to recognize common sign language gestures and convert them into
                                 text, making communication more accessible.
                             </p>
                         </CardContent>
@@ -82,7 +82,7 @@ export default function AboutPage() {
                         </CardHeader>
                         <CardContent>
                             <p className="text-sm">
-                                Our application is built using Next.js, TensorFlow.js, and other modern web technologies, making it
+                                Our application is built using Next.js, Keras, OpenCV, and other modern web technologies, making it
                                 accessible across devices without requiring special hardware.
                             </p>
                         </CardContent>
