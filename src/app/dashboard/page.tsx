@@ -35,7 +35,7 @@ export default function DashboardPage() {
                 <Card className="col-span-1">
                     <CardHeader>
                         <CardTitle>Camera Feed</CardTitle>
-                        <CardDescription>Position your hands within the frame for best detection results</CardDescription>
+                        <CardDescription>Position your hands within the frame and about 1 meter away from the camera</CardDescription>
                     </CardHeader>
                     <CardContent>
                         <div className="aspect-video overflow-hidden rounded-md border bg-muted">
