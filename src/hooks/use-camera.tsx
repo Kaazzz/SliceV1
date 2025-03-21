@@ -79,7 +79,7 @@ export function useCamera({ onFrame, fps = 30 }: UseCameraOptions = {}) {
             }
         } catch (err) {
             console.error("Error accessing camera:", err)
-            setError("Could not access camera. Please check permissions.")
+            setError("Could not access camera. Please update permissions.")
             toast({
                 title: "Camera error",
                 description: "Could not access your camera. Please check permissions.",
