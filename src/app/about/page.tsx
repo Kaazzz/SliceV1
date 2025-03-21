@@ -46,7 +46,7 @@ export default function AboutPage() {
                                 <MessageSquareText className="h-4 w-4" />
                             </div>
                             <CardTitle>Sign Interpretation</CardTitle>
-                            <CardDescription>Converting gestures to meaningful text</CardDescription>
+                            <CardDescription>Converting and extracting gestures to text</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <p className="text-sm">
@@ -67,7 +67,7 @@ export default function AboutPage() {
                         <CardContent>
                             <p className="text-sm">
                                 SLICE-V1 leverages Keras for machine learning capabilities, enabling accurate recognition of sign
-                                language patterns and continuous improvement over time.
+                                language patterns, letters and enables continuous improvement over time.
                             </p>
                         </CardContent>
                     </Card>
