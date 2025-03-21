@@ -11,7 +11,7 @@ export default function DetectionResults() {
             <div className="flex h-[300px] items-center justify-center rounded-md border bg-muted p-4 text-center">
                 <div className="space-y-2">
                     <p className="text-sm text-muted-foreground">No gestures detected yet</p>
-                    <p className="text-xs text-muted-foreground">Position your hands in the camera view to begin</p>
+                    <p className="text-xs text-muted-foreground">Place your hands in front of the camera view to begin</p>
                 </div>
             </div>
         )

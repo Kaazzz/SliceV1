@@ -35,7 +35,7 @@ export default function CameraFeed() {
         <div className="relative">
             <video ref={videoRef} autoPlay playsInline muted className="h-full w-full rounded-md bg-black" />
             <canvas ref={canvasRef} className="absolute left-0 top-0 h-full w-full" />
-            <div className="absolute bottom-4 right-4 flex gap-2">
+            <div className="absolute bottom-4 right-4 flex gap-3">
                 {isStreaming ? (
                     <Button variant="destructive" size="sm" onClick={stopCamera}>
                         <CameraOff className="mr-2 h-4 w-4" />
