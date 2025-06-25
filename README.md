@@ -4,7 +4,7 @@
 ## 🚀 Features  
 - 📷 **Real-time Hand & Gesture Detection** using OpenCV & Mediapipe  
 - 🔠 **Sign Language Interpretation** (Coming Soon)  
-- 🎨 **Simple & Responsive Web Interface** (Flask-based, if applicable)  
+- 🎨 **Simple & Responsive Web Interface** 
 
 ## 🛠️ Tech Stack  
 - **Backend:** Python (Flask/FastAPI)  
