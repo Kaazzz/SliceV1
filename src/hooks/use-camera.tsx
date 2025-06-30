@@ -73,16 +73,16 @@ export function useCamera({ onFrame, fps = 30 }: UseCameraOptions = {}) {
                 }
 
                 toast({
-                    title: "Camera started",
-                    description: "Your camera feed is now active",
+                    title: "Camera Connected",
+                    description: "Successfully connected to your camera device.",
                 })
             }
         } catch (err) {
             console.error("Error accessing camera:", err)
             setError("Could not access camera. Please update permissions.")
             toast({
-                title: "Camera error",
-                description: "Could not access your camera. Please check permissions.",
+                title: "Camera Access Denied",
+                description: "Unable to access camera. Please grant permission and try again.",
                 variant: "destructive",
             })
         } finally {
@@ -108,8 +108,8 @@ export function useCamera({ onFrame, fps = 30 }: UseCameraOptions = {}) {
 
         setIsStreaming(false)
         toast({
-            title: "Camera stopped",
-            description: "Your camera feed has been stopped",
+            title: "Camera Disconnected",
+            description: "Your camera feed has been stopped.",
         })
     }, [toast])
 
