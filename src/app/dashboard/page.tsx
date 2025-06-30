@@ -13,7 +13,7 @@ export default function DashboardPage() {
             <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
                 <div>
                     <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
-                    <p className="text-muted-foreground">Real-time sign language detection gestures and interpretation</p>
+                    <p className="text-muted-foreground">This Provides Real-time sign language detection gestures and interpretation</p>
                 </div>
                 <div className="flex items-center gap-2">
                     <Button variant="outline" size="sm">
