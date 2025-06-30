@@ -35,7 +35,7 @@ export function useHandDetection() {
     const { toast } = useToast()
 
     // Simulated gestures for demo purposes
-    const gestures = ["Hello", "Thank you", "Yes", "No", "Help", "Please"]
+    const gestures = ["Heyyy", "Thank you", "Yes", "No", "Help", "Please"]
 
     // Simulate loading the model
     const loadModel = useCallback(async () => {
@@ -49,14 +49,14 @@ export function useHandDetection() {
             setIsModelLoaded(true)
             toast({
                 title: "Model loaded",
-                description: "Hand detection model is ready to use",
+                description: "Detection model ready",
             })
         } catch (err) {
             console.error("Error loading model:", err)
             setError("Failed to load hand detection model")
             toast({
                 title: "Model error",
-                description: "Failed to load hand detection model",
+                description: "Failed to load",
                 variant: "destructive",
             })
         } finally {
@@ -73,7 +73,7 @@ export function useHandDetection() {
             const ctx = canvas.getContext("2d")
             if (!ctx) return
 
-            // Set canvas dimensions to match video
+            
             canvas.width = video.videoWidth
             canvas.height = video.videoHeight
 
